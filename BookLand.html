@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BookLand – Інтернет-магазин книг</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>BookLand</h1>
+  <p>Ваш улюблений інтернет-магазин книг</p>
+</header>
+
+<nav>
+  <a href="#home">Головна</a>
+  <a href="#catalog">Каталог</a>
+  <a href="#contacts">Контакти</a>
+  <a href="#about">Про нас</a>
+</nav>
+
+<main>
+  <section id="home">
+    <h2>Ласкаво просимо до BookLand!</h2>
+    <p>BookLand — це не просто інтернет-магазин книг. Це місце, де народжується любов до читання. Ми віримо, що кожна книга має свого читача, а кожен читач — свою улюблену історію.</p>
+    <p>Ми об'єднуємо українських авторів, книголюбів і всіх, хто прагне пізнання, натхнення та розвитку. У нашому каталозі ви знайдете як безсмертну класику, так і сучасні літературні відкриття, дитячі казки, підручники, мотиваційні книги та ще багато цікавого.</p>
+    <p>Наші переваги:</p>
+    <ul>
+      <li>Швидка доставка по всій Україні;</li>
+      <li>Постійне оновлення асортименту;</li>
+      <li>Знижки та акції для постійних клієнтів;</li>
+      <li>Зручна система оплати й безпечні покупки;</li>
+      <li>Професійна підтримка клієнтів.</li>
+    </ul>
+    <p>Приєднуйтесь до спільноти BookLand і розвивайте культуру читання разом з нами. Подаруйте собі нову історію вже сьогодні!</p>
+    <p>Щоб розпочати — перейдіть до каталогу та оберіть улюблену книгу.</p>
+    <button onclick="document.querySelector('a[href=\'#catalog\']').click();">Перейти до каталогу</button>
+  </section>
+
+  <section id="catalog">
+    <h2>Каталог книг</h2>
+    <div class="book-list">
+      <div class="book">
+  <h3>1984</h3>
+  <p>Автор: Джордж Орвелл</p>
+  <p>Ціна: <span class="price">170</span> грн</p>
+</div>
+<div class="book">
+  <h3>Майстер і Маргарита</h3>
+  <p>Автор: Михайло Булгаков</p>
+  <p>Ціна: <span class="price">190</span> грн</p>
+</div>
+<div class="book">
+  <h3>Гаррі Поттер і філософський камінь</h3>
+  <p>Автор: Джоан Роулінг</p>
+  <p>Ціна: <span class="price">180</span> грн</p>
+</div>
+<div class="book">
+  <h3>Великий Гетсбі</h3>
+  <p>Автор: Френсіс Скотт Фіцджеральд</p>
+  <p>Ціна: <span class="price">160</span> грн</p>
+</div>
+<div class="book">
+  <h3>Коханець леді Чаттерлей</h3>
+  <p>Автор: Девід Герберт Лоуренс</p>
+  <p>Ціна: <span class="price">175</span> грн</p>
+</div>
+<div class="book">
+  <h3>Убити пересмішника</h3>
+  <p>Автор: Гарпер Лі</p>
+  <p>Ціна: <span class="price">185</span> грн</p>
+</div>
+<div class="book">
+  <h3>Анна Кареніна</h3>
+  <p>Автор: Лев Толстой</p>
+  <p>Ціна: <span class="price">210</span> грн</p>
+</div>
+<div class="book">
+  <h3>Портрет Доріана Грея</h3>
+  <p>Автор: Оскар Вайльд</p>
+  <p>Ціна: <span class="price">165</span> грн</p>
+</div>
+<div class="book">
+  <h3>Шантарам</h3>
+  <p>Автор: Грегорі Девід Робертс</p>
+  <p>Ціна: <span class="price">220</span> грн</p>
+</div>
+<div class="book">
+  <h3>Сторонній</h3>
+  <p>Автор: Альбер Камю</p>
+  <p>Ціна: <span class="price">155</span> грн</p>
+</div>
+<div class="book">
+  <h3>Тисячі сяючих сонць</h3>
+  <p>Автор: Халед Госсейні</p>
+  <p>Ціна: <span class="price">200</span> грн</p>
+</div>
+<div class="book">
+  <h3>Атлант розправив плечі</h3>
+  <p>Автор: Айн Ренд</p>
+  <p>Ціна: <span class="price">280</span> грн</p>
+</div>
+<div class="book">
+  <h3>Книга джунглів</h3>
+  <p>Автор: Редьярд Кіплінг</p>
+  <p>Ціна: <span class="price">150</span> грн</p>
+</div>
+<div class="book">
+  <h3>Маленький принц</h3>
+  <p>Автор: Антуан де Сент-Екзюпері</p>
+  <p>Ціна: <span class="price">140</span> грн</p>
+</div>
+<div class="book">
+  <h3>451° за Фаренгейтом</h3>
+  <p>Автор: Рей Бредбері</p>
+  <p>Ціна: <span class="price">170</span> грн</p>
+</div>
+<div class="book">
+  <h3>Гаррі Поттер і келих вогню</h3>
+  <p>Автор: Джоан Роулінг</p>
+  <p>Ціна: <span class="price">200</span> грн</p>
+</div>
+<div class="book">
+  <h3>Сила підсвідомості</h3>
+  <p>Автор: Джозеф Мерфі</p>
+  <p>Ціна: <span class="price">145</span> грн</p>
+</div>
+<div class="book">
+  <h3>Ігри, в які грають люди</h3>
+  <p>Автор: Ерік Берн</p>
+  <p>Ціна: <span class="price">195</span> грн</p>
+</div>
+<div class="book">
+  <h3>Нейромант</h3>
+  <p>Автор: Вільям Ґібсон</p>
+  <p>Ціна: <span class="price">185</span> грн</p>
+</div>
+<div class="book">
+  <h3>Чорний лебідь</h3>
+  <p>Автор: Насім Талеб</p>
+  <p>Ціна: <span class="price">215</span> грн</p>
+</div>
+  </section>
+
+  <section id="about" class="about">
+    <h2>Про нас</h2>
+    <p>BookLand — це сучасний онлайн-магазин, створений з любов'ю до книг. Ми пропонуємо широкий вибір літератури для будь-якого віку та смаку — від класичних творів до сучасних бестселерів. Наша мета — зробити читання доступним для кожного, хто цінує знання, натхнення та емоції, які дарують книги.</p>
+    <p>Ми прагнемо забезпечити зручний сервіс, швидку доставку та якісне обслуговування клієнтів. BookLand — це місце, де кожен знайде свою книгу.</p>
+  </section>
+
+  <section id="contacts" class="about">
+    <h2>Контакти</h2>
+    <p>Зв’яжіться з нами для будь-яких запитань, пропозицій або підтримки. Ми завжди раді допомогти!</p>
+    <ul>
+      <li>Телефон: +380 (50) 123-45-67</li>
+      <li>Email: support@bookland.ua</li>
+      <li>Адреса: м. Київ, вул. Книжкова, 10</li>
+    </ul>
+    <p>Також ви можете написати нам через форму зворотного зв’язку або в соціальних мережах.</p>
+  </section>
+</main>
+
+<footer>
+  <p>&copy; 2025 BookLand. Всі права захищено.</p>
+</footer>
+
+<!-- Кошик -->
+<div id="cart" style="position: fixed; bottom: 20px; right: 20px; background: white; border: 2px solid #4a90e2; border-radius: 10px; padding: 15px; box-shadow: 0 0 10px rgba(0,0,0,0.2); max-width: 250px; z-index: 1000;">
+  <h4 style="margin-top: 0;">Кошик</h4>
+  <ul id="cart-items" style="padding-left: 20px; margin: 0;">
+    <li>Кошик порожній</li>
+  </ul>
+  <button onclick="checkout()" style="margin-top: 10px;">Оформити замовлення</button>
+</div>
+
+<!-- Форма замовлення -->
+<div id="checkout-form" style="display:none; position: fixed; bottom: 20px; left: 20px; background: white; border: 2px solid #4a90e2; border-radius: 10px; padding: 15px; box-shadow: 0 0 10px rgba(0,0,0,0.2); max-width: 300px; z-index: 1000;">
+  <h4>Оформлення замовлення</h4>
+  <label>Ім’я:<br><input type="text" id="customer-name" style="width:100%;"></label><br><br>
+  <label>Прізвище:<br><input type="text" id="customer-surname" style="width:100%;"></label><br><br>
+  <label>Телефон:<br><input type="text" id="customer-phone" style="width:100%;"></label><br><br>
+  <label>Адреса доставки:<br><input type="text" id="customer-address" style="width:100%;"></label><br><br>
+  <label>Номер відділення Нової Пошти:<br><input type="text" id="customer-post-office" style="width:100%;"></label><br><br>
+  <button onclick="confirmOrder()">Підтвердити</button>
+</div>
+
+
+<!-- JavaScript -->
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    const sections = document.querySelectorAll("main section");
+    sections.forEach(section => section.style.display = "none");
+
+    const showSection = (id) => {
+      sections.forEach(s => s.style.display = "none");
+      const target = document.querySelector(id);
+      if (target) target.style.display = "block";
+    };
+
+    document.querySelectorAll("nav a").forEach(link => {
+      link.addEventListener("click", e => {
+        e.preventDefault();
+        const id = link.getAttribute("href");
+        showSection(id);
+      });
+    });
+
+    showSection("#home");
+  });
+
+  const cart = [];
+
+  function addToCart(name, price) {
+    cart.push({ name, price });
+    updateCart();
+  }
+
+  function updateCart() {
+    const cartItems = document.getElementById("cart-items");
+    cartItems.innerHTML = "";
+    if (cart.length === 0) {
+      cartItems.innerHTML = "<li>Кошик порожній</li>";
+      return;
+    }
+    cart.forEach(item => {
+      const li = document.createElement("li");
+      li.textContent = `${item.name} – ${item.price} грн`;
+      cartItems.appendChild(li);
+    });
+  }
+
+  function checkout() {
+    if (cart.length === 0) {
+      alert("Ваш кошик порожній!");
+      return;
+    }
+    document.getElementById("checkout-form").style.display = "block";
+  }
+
+  function confirmOrder() {
+    const name = document.getElementById("customer-name").value.trim();
+    const surname = document.getElementById("customer-surname").value.trim();
+    const phone = document.getElementById("customer-phone").value.trim();
+    const address = document.getElementById("customer-address").value.trim();
+    const postOffice = document.getElementById("customer-post-office").value.trim();
+
+    if (!name || !surname || !phone || !address || !postOffice) {
+      alert("Будь ласка, заповніть усі поля форми.");
+      return;
+    }
+
+    let orderSummary = cart.map(item => `${item.name} – ${item.price} грн`).join("\n");
+    let total = cart.reduce((sum, item) => sum + item.price, 0);
+
+    alert(
+      `Дякуємо, ${name} ${surname}!\nВаше замовлення прийнято.\n\n` +
+      `Замовлення:\n${orderSummary}\n\n` +
+      `Сума: ${total} грн\n` +
+      `Телефон: ${phone}\n` +
+      `Адреса: ${address}\n` +
+      `Відділення НП: ${postOffice}\n\n` +
+      `Ми зв’яжемося з вами найближчим часом.`
+    );
+
+    cart.length = 0;
+    updateCart();
+    document.getElementById("checkout-form").style.display = "none";
+    document.getElementById("customer-name").value = '';
+    document.getElementById("customer-surname").value = '';
+    document.getElementById("customer-phone").value = '';
+    document.getElementById("customer-address").value = '';
+    document.getElementById("customer-post-office").value = '';
+  }
+
+document.addEventListener("DOMContentLoaded", () => {
+  const sections = document.querySelectorAll("main section");
+  sections.forEach(section => section.style.display = "none");
+
+  const showSection = (id) => {
+    sections.forEach(s => s.style.display = "none");
+    const target = document.querySelector(id);
+    if (target) target.style.display = "block";
+  };
+
+  document.querySelectorAll("nav a").forEach(link => {
+    link.addEventListener("click", e => {
+      e.preventDefault();
+      const id = link.getAttribute("href");
+      showSection(id);
+    });
+  });
+  showSection("#home");
+
+  document.querySelectorAll(".book").forEach(book => {
+    const title = book.querySelector("h3")?.textContent.trim();
+    const price = parseFloat(book.querySelector(".price")?.textContent.trim());
+
+    if (title && !isNaN(price)) {
+      const btn = document.createElement("button");
+      btn.textContent = "Додати до кошика";
+      btn.onclick = () => addToCart(title, price);
+      book.appendChild(btn);
+    }
+  });
+});
+</script>
+</body>
+</html>
